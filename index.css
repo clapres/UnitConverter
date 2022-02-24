@@ -1,0 +1,78 @@
+html, body {
+    margin-top: 20px ;
+    margin-left:  auto ;
+    margin-right: auto;
+    padding: 0;
+    max-width: 550px;
+    background-color: #E5E5E5
+}
+
+h1 {
+    width: 448.4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #1A1921;
+}
+
+.top {
+    background: pink;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(246.26deg, #2B75EC 0%, #2EC4DE 100%);
+}
+
+#number {
+    font-family: Inter;
+    font-style: normal;
+    width: 200px;
+    font-size: 80px;
+    color: #000;
+    padding: 20px;
+    margin: 10;
+    text-align: center;
+}
+
+.bottom {
+    background: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.bottom span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    margin-bottom: 40px;
+}
+
+#error-msg {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: red;
+    margin-bottom: 40px;
+}
+

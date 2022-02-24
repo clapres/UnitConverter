@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body onload="doIt()">
+        <main">
+            <section class="top">
+                <h1>Metric/Imperial unit conversion</h1>
+                <input type="text" id="number" name="name" required>
+            </section>
+            <section class="bottom">
+                <h3>Length (Meter/Feet)</h3>
+                <span id="length"></span>
+                <h3>Volume (Liters/Gallons)</h3>
+                <span id="volume"></span>
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <span id="mass"></span>
+                <p id="error-msg"></p>
+            </section>
+        </main> 
+        <script src="index.js"></script>
+    </body>
+</html>
